@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'crustio/crust-apps'
+    if: github.repository == 'BOBOKaa/crust-apps'
     runs-on: ubuntu-latest
 
     steps:
