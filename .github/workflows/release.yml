@@ -6,6 +6,11 @@ on:
   # manual trigger
   workflow_dispatch:
 
+  push:
+    branches:
+      - master
+
+
 jobs:
   bump_version:
     name: Bump Version
